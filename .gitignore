@@ -36,5 +36,5 @@
 /out
 /bin
 /.gradle
-/SHJLogs
-SHJLogs/
+#/htmlLogs
+#htmlLogs/

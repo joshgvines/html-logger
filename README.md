@@ -18,7 +18,7 @@ An extremely simple HTML output Java logger.
 #### Recommended usage
 ```Java
 
-private static LOGGER = HTMLLoggerImpl.getLogger();
+private static HTMLLoggerImpl LOGGER = HTMLLoggerImpl.getLogger();
 
 LOGGER.log(String customPriority, String errorMessage)
 LOGGER.okay(String errorMessage);

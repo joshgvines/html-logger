@@ -1,8 +1,6 @@
-# Compiled class file
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#Ignore Log Out
+/htmlLogs
+htmlLogs/
 
 # Package Files #
 #*.jar
@@ -12,7 +10,13 @@
 *.tar.gz
 *.rar
 
-# Basic Settings
+# Gradle Output
+/build
+/out
+/bin
+/.gradle
+
+# Basic Project and IDE Settings
 /.idea
 /idea
 .idea
@@ -31,10 +35,5 @@
 *.classpath
 .classpath
 
-# Output
-/build
-/out
-/bin
-/.gradle
-#/htmlLogs
-#htmlLogs/
+# Compiled class file
+*.class

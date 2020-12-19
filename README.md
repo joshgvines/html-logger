@@ -15,7 +15,7 @@ An extremely simple HTML output Java logger.
 //index.html will contain your logs at the end of execution.
 ```
 
-#### Recommended usage
+#### Recommended Usage
 ```Java
 
 private static HTMLLoggerImpl LOGGER = HTMLLoggerImpl.getLogger();
@@ -43,7 +43,5 @@ LOGGER.rip(String errorMessage);
 ---
 
 ## Versions Used
-
 * OpenJDK 11.0.2
-* gradle-5.6.4
-* Eclipse IDE
+* Gradle-5.6.4
